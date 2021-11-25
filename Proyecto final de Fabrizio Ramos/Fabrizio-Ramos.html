@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Ramos Fabrizio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagenes/favIcon.ico"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky">
+        <a class="navbar-brand" href="index.html">Fabrizio Ezequiel Alexis Ramos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="font-size: 30px; color: white;"><i class="fas fa-bars"></i></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#port"><i class="fas fa-folder-open"></i> PROYECTOS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca"><i class="fas fa-user-alt"></i> ACERCA DE MÍ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cont"><i class="far fa-envelope"></i> CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cert"><i class="fas fa-file-alt"></i> HABILIDADES</a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="jumbotron jumbotron-fluid content">
+        <div class="container">
+            <img id="perfil"  src=fabrizio.jpg.jpg width="40%">
+            <h1 id="titulo">Fabrizio Ezequiel Ramos</h1>
+            <h2 id="subtitulo">Estudiante de Desarrollo Web</h2>
+        </div>
+      </div>
+
+      <section class="portfolio" id="port">
+        <i class="fas fa-folder-open"></i> 
+          <h2>Mis trabajos<hr></h2>
+          <p class="lead">Aquí dejo mis trabajos practicos anteriores </p>
+          <div class="conteiner">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>Mi primer HTML</h2>
+                    <a href="https://ramos-fabrizioezequiel-individual-com8.netlify.app"><span style="font-size: 100px; color: white;">
+                      <i class="fas fa-hand-pointer"></i></span></a>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Mi primer CSS</h2>
+                    <a href="https://ramos-fabrizioo-individual-com8.netlify.app/"><span style="font-size: 100px; color: white;">
+                      <i class="fas fa-hand-pointer"></i></span></a>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Trabajo Grupal</h2>
+                    <a href="https://comision-5-desarrollo-web.netlify.app/"><span style="font-size: 100px; color: white;">
+                      <i class="fas fa-hand-pointer"></i></span></a>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about" id="acerca">
+            <div>
+                <i class="fas fa-user-alt"></i>
+                <h2>Acerca de Mi<hr></h2>
+                <p class="lead">Hola, soy <strong><em> Fabrizio Ramos </em></strong>, tengo 15 años y soy un estudiante de programación.
+                <br>Me interesa mucho programar, pero lo que mas me gusta de esta ciencia es el desarrollo web, ya que es muy lindo armar algo a tu gusto </p>
+                <p class="lead">Gracias a una beca de aprender programando y la UTN, estoy obteniendo mas conociemientos de DW1	cada semana, y usando mas herramientas las cuales son muy utiles en la elaboración de mis páginas.</p>
+                <p class="lead">Este es mi primer curso de programación con <a id="linkap" href="https://aprendeprogramando.virtual.bue.edu.ar/"><strong>Aprende Programando</strong></a></p>, y al crear mi primer html, sabía que DW1 iba a ser lo mío. 
+            </div>
+        </section>
+
+        <section class="contacto" id="cont">
+            <i class="far fa-envelope"></i>
+            <h2>Contacto<hr></h2>
+            <p class="lead">Si deseas contactarte conmigo, abajo dejo un formulario para que completes con ciertos datos, y enseguida nos comunicaremos</p>
+            <a class="nav-link" href="#for"><span style="font-size: 48px; color: white;">
+                <i class="fas fa-angle-down"></i></span></i></a>
+        </section>
+
+        <section class="form" id="for">
+            <div>
+                <i class="fas fa-edit"></i>
+                <h2>Formulario <hr></h2>
+                <form action="https://formspree.io/f/xvovlgll" method="POST">
+                    <div class="form-group">
+                        <label for="fname">Nombre</label>
+                        <input type="text" name="Nombre" placeholder="Nombre Completo" class="form-control" required>
+                    </div>
+                      <div class="form-group">
+                        <label for="email">Mail</label>
+                        <input type="email" name="Email" placeholder="Correo Electronico" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="numero">Telefono</label>
+                        <input type="number" name="Telefono" placeholder="Numero de Telefono" class="form-control" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" name="Mensaje" placeholder="Escriba su mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="certificate" id="cert">
+          <div>
+              <i class="fas fa-file-alt"></i>
+              <h2>HABILIDADES<hr></h2>
+              <p class="lead">Algunas habilidades que tengo:</p>
+              <ul id="cursos" class="lead">
+                  <li>Hablo 4 idiomas (Español, Ingles, Frances y Portugues).</li>
+                  <li>Soy una persona paciente, que no se dá por vencido.</li>
+                  <li>Hice un curso de Ciencias de Datos</li>
+                  <li>Estoy acostumbrado a un trabajo con mucha demanda horaria</li>
+              </ul>
+          </div>
+      </section>
+
+        <section>
+            <div class="dir_redes">
+                <div class="conteiner">
+                    <div class="row">
+
+                        <div class="col-sm-6">
+                            <i class="fas fa-house-user"></i>
+                            <h2>Direccion<hr></h2>
+                            <h5 class="lead">Balvanera</h5>
+                            <p>CP1096</p>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <i class="fas fa-globe"></i>
+                            <h2>Redes sociales<hr></h2>
+                            <a href="https://www.instagram.com/fabrar_r/"><span style="font-size: 48px; color: white;">
+                            <i class="fab fa-instagram"></i></span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>Copyright <i class="far fa-copyright"></i> Fabrizio Ramos 2021</p>
+        </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9a714bd654.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

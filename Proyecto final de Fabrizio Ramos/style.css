@@ -1,0 +1,171 @@
+body{
+    background-color: #aaeb33;
+    color: white;
+    font-family: 'Fantasy', fantasy;
+}
+
+#titulo{
+    font-family: 'Monospace', cursive, italic;
+    font-size: 100px;
+}
+
+#subtitulo{
+    font-size: 30px;
+}
+
+#imagenpro{
+    border-radius: 10%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content{
+    text-align: center;
+    background-color: #71e24f;
+    color: white;
+    padding: 10%;
+    margin-bottom: 0rem;
+}
+
+.portfolio{
+    text-align: center;
+    background-color: #359222;
+    color: white;
+    padding: 10%;
+}
+
+.about{
+    text-align: center;
+    background-color: #41d323;
+    color: white;
+    padding: 10%;
+}
+
+.certificate{
+    text-align: center;
+    background-color: #359222;
+    color: white;
+    padding: 10%;
+}
+
+
+
+.contacto{
+    text-align: center;
+    background-color: #359222;
+    color: white;
+    padding: 10%;
+}
+
+.form{
+    text-align: center;
+    background-color: #359222;
+    color: white;
+    padding: 10%;
+}
+
+.dir_redes{
+    text-align: center;
+    background-color: #4ac050;
+    color: white;
+    padding: 10%;
+}
+
+.navbar{
+    background-color: #4ac050;
+    color: white;
+    font-family: 'PT Serif', serif;
+
+}
+
+#linkap{
+    color: #111F2C;
+    font-style: italic;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-link:hover{
+    color: #31c945;
+
+}
+
+.navbar-brand:hover{
+    color: #71e24f;
+
+}
+
+#perfil{
+    border-radius: 100%;
+}
+
+#formulario{
+    text-align: left;
+}
+
+.footer{
+    text-align: center;
+    background-color: #71e24f;
+}
+
+#cursos{
+    list-style-type: none;
+    background-color: #71e24f;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #71e24f;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.form-control:hover{
+    background-color: #71e24f;
+    color: white;
+}
+
+.w-100 {
+    width: 80%!important;
+    margin: auto;
+    justify-content: ;
+    align-items: ;
+}
+
+
+
+/* 
+
+Ranita
+
+1- justify-content: flex-end; 
+2- justify-content: center; 
+3- justify-content: space-around; 
+4- justify-content: space-between; 
+5- aling-items: flex-end; 
+6- aling-items: center; 
+    justify-content: center; 
+7- aling-items: center; 
+    justify-content: center; 
+
+
+
+
+*/
